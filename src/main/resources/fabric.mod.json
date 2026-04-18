@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "togglechat",
+  "version": "${version}",
+  "name": "Toggle Chat",
+  "description": "Toggle the chat GUI visibility with a keybind",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/togglechat/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.togglechat.ToggleChatMod"]
+  },
+  "mixins": ["togglechat.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
